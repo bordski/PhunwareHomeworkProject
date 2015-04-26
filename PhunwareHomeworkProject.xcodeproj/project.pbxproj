@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5783E3421AE9F40700B347B4 /* OBJVenueCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5783E3411AE9F40600B347B4 /* OBJVenueCollection.m */; };
+		5783E3451AE9FA3C00B347B4 /* VCVenueDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 5783E3441AE9FA3C00B347B4 /* VCVenueDetails.m */; };
+		578D1D581AEC8EB200F9D1C4 /* OBJVenueSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 578D1D571AEC8EB200F9D1C4 /* OBJVenueSchedule.m */; };
+		57E986391AD56A4E005A7F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E986381AD56A4E005A7F4B /* main.m */; };
+		57E9863C1AD56A4E005A7F4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E9863B1AD56A4E005A7F4B /* AppDelegate.m */; };
+		57E986451AD56A4E005A7F4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E986431AD56A4E005A7F4B /* Main.storyboard */; };
+		57E986471AD56A4E005A7F4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E986461AD56A4E005A7F4B /* Images.xcassets */; };
+		57E9864A1AD56A4E005A7F4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E986481AD56A4E005A7F4B /* LaunchScreen.xib */; };
+		57E986561AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E986551AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.m */; };
+		57E986691AD570D6005A7F4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E986681AD570D6005A7F4B /* SystemConfiguration.framework */; };
+		57E9866D1AD57116005A7F4B /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E9866C1AD57116005A7F4B /* Reachability.m */; };
+		57E986721AD5822C005A7F4B /* TVCVenueList.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E986711AD5822C005A7F4B /* TVCVenueList.m */; };
+		57E986781AD583B8005A7F4B /* OBJVenue.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E986771AD583B8005A7F4B /* OBJVenue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57E986501AD56A4E005A7F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57E9862B1AD56A4E005A7F4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E986321AD56A4E005A7F4B;
+			remoteInfo = PhunwareHomeworkProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5783E3401AE9F40600B347B4 /* OBJVenueCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJVenueCollection.h; sourceTree = "<group>"; };
+		5783E3411AE9F40600B347B4 /* OBJVenueCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJVenueCollection.m; sourceTree = "<group>"; };
+		5783E3431AE9FA3C00B347B4 /* VCVenueDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCVenueDetails.h; sourceTree = "<group>"; };
+		5783E3441AE9FA3C00B347B4 /* VCVenueDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCVenueDetails.m; sourceTree = "<group>"; };
+		578D1D561AEC8EB200F9D1C4 /* OBJVenueSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJVenueSchedule.h; sourceTree = "<group>"; };
+		578D1D571AEC8EB200F9D1C4 /* OBJVenueSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJVenueSchedule.m; sourceTree = "<group>"; };
+		57E986331AD56A4E005A7F4B /* PhunwareHomeworkProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhunwareHomeworkProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E986371AD56A4E005A7F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E986381AD56A4E005A7F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57E9863A1AD56A4E005A7F4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57E9863B1AD56A4E005A7F4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57E986441AD56A4E005A7F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57E986461AD56A4E005A7F4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57E986491AD56A4E005A7F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		57E9864F1AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhunwareHomeworkProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E986541AD56A4E005A7F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E986551AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhunwareHomeworkProjectTests.m; sourceTree = "<group>"; };
+		57E986681AD570D6005A7F4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57E9866B1AD57116005A7F4B /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		57E9866C1AD57116005A7F4B /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		57E986701AD5822C005A7F4B /* TVCVenueList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVCVenueList.h; sourceTree = "<group>"; };
+		57E986711AD5822C005A7F4B /* TVCVenueList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVCVenueList.m; sourceTree = "<group>"; };
+		57E986761AD583B8005A7F4B /* OBJVenue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJVenue.h; sourceTree = "<group>"; };
+		57E986771AD583B8005A7F4B /* OBJVenue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBJVenue.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57E986301AD56A4E005A7F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E986691AD570D6005A7F4B /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E9864C1AD56A4E005A7F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5783E33F1AE9F3F000B347B4 /* OBJVenueCollection */ = {
+			isa = PBXGroup;
+			children = (
+				5783E3401AE9F40600B347B4 /* OBJVenueCollection.h */,
+				5783E3411AE9F40600B347B4 /* OBJVenueCollection.m */,
+			);
+			path = OBJVenueCollection;
+			sourceTree = "<group>";
+		};
+		578D1D551AEC8DF200F9D1C4 /* OBJVenueSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				578D1D561AEC8EB200F9D1C4 /* OBJVenueSchedule.h */,
+				578D1D571AEC8EB200F9D1C4 /* OBJVenueSchedule.m */,
+			);
+			path = OBJVenueSchedule;
+			sourceTree = "<group>";
+		};
+		57E9862A1AD56A4E005A7F4B = {
+			isa = PBXGroup;
+			children = (
+				57E986351AD56A4E005A7F4B /* PhunwareHomeworkProject */,
+				57E986521AD56A4E005A7F4B /* PhunwareHomeworkProjectTests */,
+				57E986341AD56A4E005A7F4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57E986341AD56A4E005A7F4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E986331AD56A4E005A7F4B /* PhunwareHomeworkProject.app */,
+				57E9864F1AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E986351AD56A4E005A7F4B /* PhunwareHomeworkProject */ = {
+			isa = PBXGroup;
+			children = (
+				57E986641AD570C7005A7F4B /* Frameworks */,
+				57E986651AD570C7005A7F4B /* Modules */,
+				57E9865F1AD56CA0005A7F4B /* Controllers */,
+				57E986601AD56CA0005A7F4B /* Models */,
+				57E986611AD56CA0005A7F4B /* Views */,
+				57E9863A1AD56A4E005A7F4B /* AppDelegate.h */,
+				57E9863B1AD56A4E005A7F4B /* AppDelegate.m */,
+				57E986461AD56A4E005A7F4B /* Images.xcassets */,
+				57E986481AD56A4E005A7F4B /* LaunchScreen.xib */,
+				57E986361AD56A4E005A7F4B /* Supporting Files */,
+			);
+			path = PhunwareHomeworkProject;
+			sourceTree = "<group>";
+		};
+		57E986361AD56A4E005A7F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57E986371AD56A4E005A7F4B /* Info.plist */,
+				57E986381AD56A4E005A7F4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57E986521AD56A4E005A7F4B /* PhunwareHomeworkProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				57E986551AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.m */,
+				57E986531AD56A4E005A7F4B /* Supporting Files */,
+			);
+			path = PhunwareHomeworkProjectTests;
+			sourceTree = "<group>";
+		};
+		57E986531AD56A4E005A7F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57E986541AD56A4E005A7F4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57E9865F1AD56CA0005A7F4B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57E986621AD56E17005A7F4B /* TVCVenueList */,
+				57E986631AD56E17005A7F4B /* VCVenueDetails */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		57E986601AD56CA0005A7F4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				578D1D551AEC8DF200F9D1C4 /* OBJVenueSchedule */,
+				5783E33F1AE9F3F000B347B4 /* OBJVenueCollection */,
+				57E9866F1AD5812A005A7F4B /* OBJVenue */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57E986611AD56CA0005A7F4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57E986431AD56A4E005A7F4B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		57E986621AD56E17005A7F4B /* TVCVenueList */ = {
+			isa = PBXGroup;
+			children = (
+				57E986701AD5822C005A7F4B /* TVCVenueList.h */,
+				57E986711AD5822C005A7F4B /* TVCVenueList.m */,
+			);
+			path = TVCVenueList;
+			sourceTree = "<group>";
+		};
+		57E986631AD56E17005A7F4B /* VCVenueDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5783E3431AE9FA3C00B347B4 /* VCVenueDetails.h */,
+				5783E3441AE9FA3C00B347B4 /* VCVenueDetails.m */,
+			);
+			path = VCVenueDetails;
+			sourceTree = "<group>";
+		};
+		57E986641AD570C7005A7F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57E986681AD570D6005A7F4B /* SystemConfiguration.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		57E986651AD570C7005A7F4B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				57E986671AD570C7005A7F4B /* ThirdParty */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		57E986671AD570C7005A7F4B /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				57E9866A1AD5710E005A7F4B /* Reachability */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		57E9866A1AD5710E005A7F4B /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				57E9866B1AD57116005A7F4B /* Reachability.h */,
+				57E9866C1AD57116005A7F4B /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		57E9866F1AD5812A005A7F4B /* OBJVenue */ = {
+			isa = PBXGroup;
+			children = (
+				57E986761AD583B8005A7F4B /* OBJVenue.h */,
+				57E986771AD583B8005A7F4B /* OBJVenue.m */,
+			);
+			path = OBJVenue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57E986321AD56A4E005A7F4B /* PhunwareHomeworkProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E986591AD56A4E005A7F4B /* Build configuration list for PBXNativeTarget "PhunwareHomeworkProject" */;
+			buildPhases = (
+				57E9862F1AD56A4E005A7F4B /* Sources */,
+				57E986301AD56A4E005A7F4B /* Frameworks */,
+				57E986311AD56A4E005A7F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhunwareHomeworkProject;
+			productName = PhunwareHomeworkProject;
+			productReference = 57E986331AD56A4E005A7F4B /* PhunwareHomeworkProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57E9864E1AD56A4E005A7F4B /* PhunwareHomeworkProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E9865C1AD56A4E005A7F4B /* Build configuration list for PBXNativeTarget "PhunwareHomeworkProjectTests" */;
+			buildPhases = (
+				57E9864B1AD56A4E005A7F4B /* Sources */,
+				57E9864C1AD56A4E005A7F4B /* Frameworks */,
+				57E9864D1AD56A4E005A7F4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E986511AD56A4E005A7F4B /* PBXTargetDependency */,
+			);
+			name = PhunwareHomeworkProjectTests;
+			productName = PhunwareHomeworkProjectTests;
+			productReference = 57E9864F1AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57E9862B1AD56A4E005A7F4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					57E986321AD56A4E005A7F4B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					57E9864E1AD56A4E005A7F4B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 57E986321AD56A4E005A7F4B;
+					};
+				};
+			};
+			buildConfigurationList = 57E9862E1AD56A4E005A7F4B /* Build configuration list for PBXProject "PhunwareHomeworkProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57E9862A1AD56A4E005A7F4B;
+			productRefGroup = 57E986341AD56A4E005A7F4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57E986321AD56A4E005A7F4B /* PhunwareHomeworkProject */,
+				57E9864E1AD56A4E005A7F4B /* PhunwareHomeworkProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57E986311AD56A4E005A7F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E986451AD56A4E005A7F4B /* Main.storyboard in Resources */,
+				57E9864A1AD56A4E005A7F4B /* LaunchScreen.xib in Resources */,
+				57E986471AD56A4E005A7F4B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E9864D1AD56A4E005A7F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E9862F1AD56A4E005A7F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E9863C1AD56A4E005A7F4B /* AppDelegate.m in Sources */,
+				57E986721AD5822C005A7F4B /* TVCVenueList.m in Sources */,
+				57E986781AD583B8005A7F4B /* OBJVenue.m in Sources */,
+				578D1D581AEC8EB200F9D1C4 /* OBJVenueSchedule.m in Sources */,
+				5783E3451AE9FA3C00B347B4 /* VCVenueDetails.m in Sources */,
+				5783E3421AE9F40700B347B4 /* OBJVenueCollection.m in Sources */,
+				57E986391AD56A4E005A7F4B /* main.m in Sources */,
+				57E9866D1AD57116005A7F4B /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E9864B1AD56A4E005A7F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E986561AD56A4E005A7F4B /* PhunwareHomeworkProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57E986511AD56A4E005A7F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57E986321AD56A4E005A7F4B /* PhunwareHomeworkProject */;
+			targetProxy = 57E986501AD56A4E005A7F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57E986431AD56A4E005A7F4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E986441AD56A4E005A7F4B /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		57E986481AD56A4E005A7F4B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E986491AD56A4E005A7F4B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57E986571AD56A4E005A7F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57E986581AD56A4E005A7F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57E9865A1AD56A4E005A7F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhunwareHomeworkProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57E9865B1AD56A4E005A7F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhunwareHomeworkProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		57E9865D1AD56A4E005A7F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhunwareHomeworkProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhunwareHomeworkProject.app/PhunwareHomeworkProject";
+			};
+			name = Debug;
+		};
+		57E9865E1AD56A4E005A7F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhunwareHomeworkProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhunwareHomeworkProject.app/PhunwareHomeworkProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E9862E1AD56A4E005A7F4B /* Build configuration list for PBXProject "PhunwareHomeworkProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E986571AD56A4E005A7F4B /* Debug */,
+				57E986581AD56A4E005A7F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E986591AD56A4E005A7F4B /* Build configuration list for PBXNativeTarget "PhunwareHomeworkProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E9865A1AD56A4E005A7F4B /* Debug */,
+				57E9865B1AD56A4E005A7F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E9865C1AD56A4E005A7F4B /* Build configuration list for PBXNativeTarget "PhunwareHomeworkProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E9865D1AD56A4E005A7F4B /* Debug */,
+				57E9865E1AD56A4E005A7F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57E9862B1AD56A4E005A7F4B /* Project object */;
+}
